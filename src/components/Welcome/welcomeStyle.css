@@ -1,0 +1,40 @@
+.welcome {
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(65deg, #71b4f7, #46d4ff);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    color: #ffffff;
+}
+.welcome img {
+    width: 150px;
+    margin-top: 20px;
+}
+.welcome h2 {
+    font-weight: 400;
+    font-size: 24px;
+    text-shadow: 3px 3px 0 #2592ff;
+}
+.welcome h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.welcome h4 > a {
+    color: #d728dd;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+.welcome h4 > a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 576px) {
+    .welcome {
+        width: 98%;
+        height: 330px;
+        margin: 0 5px;
+    }
+}

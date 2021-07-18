@@ -1,0 +1,42 @@
+.main-err {
+    width: 500px;
+    height: 300px;
+    color: #444444;
+}
+.main-err  * {
+    margin: 0;
+}
+.main-err .err-sect {
+    background: rgba(255, 255, 255, 0.808);
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+.err-sect img {
+    width: 150px;
+    height: 150px;
+}
+.err-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.err-text > h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+.err-text > h3 {
+    font-weight: 400;
+    font-size: 15px;
+}
+@media (max-width: 576px){
+    .main-err {
+        width: 98%;
+    }
+    .err-text > h2 {
+        font-size: 16px;
+    }
+    .err-text > h3 {
+        font-size: 14px;
+    }
+}
